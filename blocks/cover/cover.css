@@ -3,11 +3,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1280px;
-  min-height: 740px;
+  max-width: 1184px;
   margin: 0 auto;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  transition: ease 1s;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover {
+    width: 100%;
+  }
 }

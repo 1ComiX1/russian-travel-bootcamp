@@ -1,4 +1,3 @@
-
 .footer__link {
   font-family: 'Inter';
   font-style: normal;
@@ -8,4 +7,21 @@
   color: #FFFFFF;
   text-decoration: none;
   align-self: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footer__link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    align-self: flex-start;
+  }
+
+  .footer__link:last-child {
+    margin-bottom: 0;
+  }
 }

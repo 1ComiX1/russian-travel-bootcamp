@@ -8,3 +8,28 @@
   /* grid-template-columns: 50px 57px 94px 68px 106px 186px; */
   /* grid-template-areas: "link . link . link . link . link copyright" */
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    width: 100%;
+  }
+}

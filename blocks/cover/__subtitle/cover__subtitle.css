@@ -7,5 +7,36 @@
   text-align: center;
   color: #FFFFFF;
   max-width: 360px;
+  position: absolute;
+  top: 429px;
   margin: 0;
+  opacity: 1;
+  z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+  .cover__subtitle {
+    font-size: 15px;
+    line-height: 19px;
+    max-width: 250px;
+    top: 265px;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .cover__subtitle {
+    font-size: 10px;
+    line-height: 15px;
+    max-width: 190px;
+    top: 165px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cover__subtitle {
+    font-size: 6px;
+    line-height: 10px;
+    max-width: 130px;
+    top: 115px;
+  }
 }
