@@ -12,4 +12,4 @@
 
 **GitHub Pages**
 
-
+https://1comix1.github.io/russian-travel-bootcamp/
