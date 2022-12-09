@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./pages/index.css">
-    <title>Document</title>
+    <title>Путешествие по России</title>
 </head>
 <body class="body">
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/svg/header__logo.svg" alt="Логотип - карта России">
-      <a class="header__lang-link" href="#">
-        Ru
-      </a>
-      <a class="header__lang-link" href="#">
-        En
-      </a>
+      <div class="header__lang-links">
+        <a class="header__lang-link header__lang-link_type_active" href="#">
+          Ru
+        </a>
+        <a class="header__lang-link" href="#">
+          En
+        </a>
+      </div>
     </header>
+    <main>
     <section class="lead">
       <h1 class="lead__title">
         Путешесвтия по России
@@ -86,7 +89,7 @@
           <h3 class="places__url-heading">
             URL
           </h3>
-          <a href="#" class="places__link">
+          <a href="http://park-kosa.ru" class="places__link">
             park-kosa.ru
           </a>
         </div>
@@ -118,7 +121,7 @@
           <h3 class="places__url-heading">
             URL
           </h3>
-          <a href="#" class="places__link">
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__link">
             National Geographic
           </a>
         </div>
@@ -150,7 +153,7 @@
           <h3 class="places__url-heading">
             URL
           </h3>
-          <a href="#" class="places__link">
+          <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" class="places__link">
             YouTube
           </a>
         </div>
@@ -182,7 +185,7 @@
           <h3 class="places__url-heading">
             URL
           </h3>
-          <a href="#" class="places__link">
+          <a href="https://vk.com/baikalmile" class="places__link">
             https://vk.com/baikalmile
           </a>
         </div>
@@ -213,7 +216,7 @@
           <h3 class="places__url-heading">
             URL
           </h3>
-          <a href="#" class="places__link">
+          <a href="http://vodlozero.ru" class="places__link">
             http://vodlozero.ru/
           </a>
         </div>
@@ -247,8 +250,9 @@
         </p>
       </a>
     </section>
+    </main>
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a class="footer__link" href="https://yandex.ru/maps">
           Карты
         </a>
@@ -264,7 +268,7 @@
         <a class="footer__link" href="https://travel.yandex.ru">
           Путешествия
         </a>
-      </div>
+      </nav>
       <p class="footer__copyright">
         © 2020. Данила Губерт
       </p>

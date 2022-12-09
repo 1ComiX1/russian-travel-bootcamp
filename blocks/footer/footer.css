@@ -1,12 +1,12 @@
 .footer {
   padding-top: 92px;
   padding-bottom: 24px;
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   max-width: 1184px;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  /* grid-template-columns: 50px 57px 94px 68px 106px 186px; */
-  /* grid-template-areas: "link . link . link . link . link copyright" */
 }
 
 @media screen and (max-width: 1024px) {

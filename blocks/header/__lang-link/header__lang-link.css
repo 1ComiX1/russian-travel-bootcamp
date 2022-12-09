@@ -1,15 +1,14 @@
 .header__lang-link {
-  max-width: 30px;
-  max-height: 28px;
+  display: flex;
   color: white;
   text-decoration: none;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  float: right;
+  align-self: flex-end;
   position: relative;
 }
 
-.header__lang-link:nth-child(2) {
-  text-decoration: underline;
+.header__lang-link:nth-child(1) {
+  margin-right: 18px;
 }
