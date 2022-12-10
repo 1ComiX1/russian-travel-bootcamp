@@ -14,7 +14,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/__lang-link/_type/header__lang-link_type_active.css);
+@import url(../blocks/header/__lang-link/_underline/header__lang-link_type_active.css);
 
 /* header end */
 
@@ -37,6 +37,8 @@
 @import url(../blocks/intro/__text/intro__text.css);
 
 @import url(../blocks/intro/__list/intro__list.css);
+
+@import url(../blocks/intro/__list/_number/intro__list_number_thin.css);
 
 /* intro end */
 

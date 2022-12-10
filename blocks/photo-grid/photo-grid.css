@@ -3,7 +3,32 @@
   max-width: 1184px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 16px;
-  margin: 0 auto;
-  padding-bottom: 92px;
+  margin: 0 auto 92px auto;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    /* max-width: 928px; */
+    column-gap: 14px;
+    row-gap: 14px;
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    column-gap: 16px;
+    row-gap: 16px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    column-gap: 16px;
+    row-gap: 16px;
+    width: calc(100% - 32px);
+  }
 }
