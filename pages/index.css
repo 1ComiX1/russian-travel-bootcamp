@@ -38,6 +38,8 @@
 
 @import url(../blocks/intro/__list/intro__list.css);
 
+@import url(../blocks/intro/__text-thin/intro__text-thin.css);
+
 /* intro end */
 
 @import url(../blocks/photo-grid/photo-grid.css);
