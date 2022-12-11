@@ -14,7 +14,7 @@
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-@import url(../blocks/header/__lang-link/_underline/header__lang-link_type_active.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /* header end */
 
@@ -86,7 +86,7 @@
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
-
+* { outline: 1px solid yellowgreen; }
 
 
 
