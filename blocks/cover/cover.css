@@ -35,13 +35,14 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
+    min-height: 640px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: calc(100% - 48px);
+    width: 100%;
     min-height: 480px;
     margin-top: 90px;
   }
